@@ -7,6 +7,5 @@ backend/venv/
 backend/__pycache__/
 backend/.env
 
-# OS
 .DS_Store
 Thumbs.db
