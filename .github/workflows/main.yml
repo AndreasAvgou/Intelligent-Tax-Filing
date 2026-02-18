@@ -27,7 +27,7 @@ jobs:
 
     - name: Run Automated Tests
       env:
-        OPENAI_API_KEY: "sk-dummy-key-for-testing"
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
         cd backend
         # Χρησιμοποιούμε σκέτο pytest στον φάκελο tests για να τα βρει όλα αυτόματα
@@ -36,7 +36,7 @@ jobs:
     - name: Build and Run Containers (Step 5.2)
       run: |
         touch backend/.env
-        echo "OPENAI_API_KEY=sk-dummy-key-for-testing" >> backend/.env
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} >> backend/.env
         
         # Αλλαγή σε 'docker compose' (χωρίς παύλα)
         docker compose up --build -d
