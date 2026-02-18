@@ -35,6 +35,9 @@ jobs:
 
     - name: Build and Run Containers (Step 5.2)
       run: |
+        touch backend/.env
+        echo "OPENAI_API_KEY=sk-dummy-key-for-testing" >> backend/.env
+        
         # Αλλαγή σε 'docker compose' (χωρίς παύλα)
         docker compose up --build -d
         echo "Waiting for services to start..."
