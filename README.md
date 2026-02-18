@@ -100,7 +100,7 @@ The backend manages the server-side logic and AI integration.
 
 ```Bash
 python -m venv venv
-.venv\Scripts\activate
+venv\Scripts\activate
 ```
 3. Install dependencies:
 
