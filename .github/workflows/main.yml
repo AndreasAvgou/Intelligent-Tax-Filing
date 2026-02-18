@@ -36,7 +36,7 @@ jobs:
     - name: Build and Run Containers (Step 5.2)
       run: |
         touch backend/.env
-        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} >> backend/.env
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} ">> backend/.env
         
         # Αλλαγή σε 'docker compose' (χωρίς παύλα)
         docker compose up --build -d
