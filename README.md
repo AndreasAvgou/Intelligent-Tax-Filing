@@ -1,6 +1,6 @@
 <div align="center">
   
- <img width="300" height="160" alt="AI-Tax-Collection" src="https://github.com/user-attachments/assets/1773ac06-3f30-448a-b9a6-8175ce0ef299" />
+ <img width="500" height="360" alt="AI-Tax-Collection" src="https://github.com/user-attachments/assets/1773ac06-3f30-448a-b9a6-8175ce0ef299" />
 
   # Intelligent Tax Filing
   
