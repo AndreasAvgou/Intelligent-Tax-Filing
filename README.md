@@ -1,5 +1,10 @@
-# Intelligent Tax Filing
+<div align="center">
+  
+ <img width="300" height="160" alt="AI-Tax-Collection" src="https://github.com/user-attachments/assets/1773ac06-3f30-448a-b9a6-8175ce0ef299" />
 
+  # Intelligent Tax Filing
+  
+</div>
 
 The Intelligent Tax Filing is a sophisticated full-stack web application designed to provide AI-driven tax assistance. It leverages modern frameworks and generative AI to offer users personalized tax advice based on their financial data.
 
